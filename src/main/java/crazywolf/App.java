@@ -13,14 +13,14 @@ public class App {
     public static void main(String[] args) {
         for (int i = 0; i < 1000 * 10000; i++) {
 //            if (log.isDebugEnabled()) {
-            log.debug("adsfadsfasdf" + i);
+            log.debug("test memery usage" + i);
 //            }
         }
-        System.out.println("Hello World!");
         try {
             Thread.sleep(5 * 1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        System.out.println("bye!");
     }
 }
